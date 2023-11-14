@@ -1,0 +1,68 @@
+/**************************************/
+/* GENERALES **************************/
+/**************************************/
+* {
+    box-sizing: border-box;
+}
+:root{
+    /* layout */
+    --cabecera: #eee;
+    --pie: #eee;
+
+    /* fuentes */
+    font-family: sans-serif;
+}
+html,
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+/**************************************/
+/* layout *****************************/
+/**************************************/
+.cabecera {
+    display:flex;
+    justify-content: space-between;
+    
+    padding-block: 10px;
+    padding-inline: 10%;
+
+    background-color: var(--cabecera);
+}
+.cuerpo {
+    flex-grow: 1;
+    padding-block: 40px;
+    padding-inline: 10%;
+
+    text-align: center;
+}
+.pie {
+    background-color: var(--pie);
+    padding-block: 10px;
+    padding-inline: 10%;
+    text-align: center;
+}
+/* barra navegacion principal **********************/
+.menu-principal{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+/* main *********************************************/
+
+.cuerpo__seccion > p{
+    padding-block: 20px;
+}

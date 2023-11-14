@@ -1,0 +1,16 @@
+1 - Vincular "estilos.css" al documento HTML
+2 - Vincular "principal.js" al documento HTML como tipo módulo (type="module")
+3 - Referenciar desde javascript (principal.js) el elemento con el id "contenedor-catalogo"
+4 - importar modulo catalogo.js a principal.js
+5 - en principal.js utilizar la propiedad "innerHTML" para inyectar HTML, al elemento seleccionado, los artículos para su visualización en el front-end. Utilizar la plantilla de referencia:
+
+<article class="articulo">
+    <img src="" alt="">
+    <div class="articulo__datos">
+        <h3>Titulo</h3>
+        <p>Descripcion</p>
+    </div>
+</article>
+
+
+

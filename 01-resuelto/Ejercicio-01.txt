@@ -1,0 +1,9 @@
+1 - Vincular "estilos.css" al documento HTML
+2 - Vincular "principal.js" al documento HTML y recordar utilizar el atributo "defer" para que el script se ejecute luego de que el navegador web cargue y analice el documento HTML
+3 - Referenciar desde javascript (principal.js) el elemento "section" con el id "contenedor". Utilizar document.getElementById()
+4 - utilizar la propiedad "innerHTML" para inyectar el siguiente HTML:
+
+<h2>Bienvenidos</h2>
+<p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, optio.
+</p>
